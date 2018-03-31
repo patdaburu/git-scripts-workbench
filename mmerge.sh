@@ -1,8 +1,7 @@
 #!/bin/bash
-# mmerge, version 1
-# -----------------
-# author: pat@daburu.net
 
+# mmerge, version 1
+# author: Pat Daburu <pat@daburu.net>
 # Run this script to merge your current branch with the 'master' branch.
 
 BRANCH=`git rev-parse --abbrev-ref HEAD`
